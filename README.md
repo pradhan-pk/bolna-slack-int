@@ -86,18 +86,22 @@ Keep this terminal window open. Your local app is now accessible via the interne
 ----
 
 ## 5. Bolna Setup (The Source)
-a. Log in to the Bolna Dashboard.
-b. Open the agent you want to track.
-c. Navigate to the Analytics tab.
-d. Locate the "Push all execution data to webhook" field.
-e. Paste your Zrok URL and append the /anjee-sunona endpoint path.
-f. Format: https://<your-zrok-url>.share.zrok.io/anjee-sunona
-g. Click Save Agent.
+<ol type="a">
+    <li>Log in to the Bolna Dashboard.</li>
+    <li>Open the agent you want to track.</li>
+    <li>Navigate to the Analytics tab.</li>
+    <li>Locate the "Push all execution data to webhook" field.</li>
+    <li>Paste your Zrok URL and append the /anjee-sunona endpoint path.</li>
+    <li>Format: https://<your-zrok-url>.share.zrok.io/anjee-sunona</li>
+    <li>Click Save Agent.</li>
+</ol>
 
 ---
 
 ## Testing the Flow
-i. Ensure your FastAPI app is running (Native or Docker).
-ii. Ensure your Zrok tunnel is active.
-iii. Open the Bolna Dashboard and use the Playground to test a call.
-iv. Once the call is completed, Bolna will trigger the webhook, and a formatted message with the transcript will appear in your Slack channel!
+<ol type="i">
+    <li>Ensure your FastAPI app is running (Native or Docker).</li>
+    <li>Ensure your Zrok tunnel is active.</li>
+    <li>Open the Bolna Dashboard and use the Playground to test a call.</li>
+    <li>Once the call is completed, Bolna will trigger the webhook, and a formatted message with the transcript will appear in your Slack channel!</li>
+</ol>
