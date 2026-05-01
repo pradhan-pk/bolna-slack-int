@@ -1,0 +1,3 @@
+*.ini
+*.ipynb
+**/__pycache__/**
